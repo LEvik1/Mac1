@@ -1,0 +1,370 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    width: 1008px;
+    margin: 0 auto;
+  }
+  
+  
+  h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 24px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Gilroy';
+  }
+  
+  .txt p {
+    width: 1008px;
+    height: 88px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 63px;
+    font-family: 'Gilroy';
+  }
+  
+  .mac {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .mac_img2 {
+    display: none;
+  }
+  .show {
+    display: block;
+}
+  .hide {
+    display: none;
+}
+
+  .price-name h3 {
+    font-weight: 700;
+    font-size: 48px;
+    font-family: 'Gilroy';
+  }
+  
+  .price-name p {
+    font-weight: 700;
+    font-size: 24px;
+    color: #0071E3;
+    font-family: 'Gilroy';
+  }
+  
+  .price {
+    margin-top: 30px;
+    
+  }
+  
+  .price-sum p {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 48px;
+    
+  }
+  .prices{
+    font-family: 'Gilroy';
+  }
+  .btns_mac {
+    width: 322px;
+    margin: 0 auto;
+    margin-top: 59px;
+    display: flex;
+    gap: 11px;
+  }
+  
+  .btns_mac button {
+    width: 155px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: #CFE7FF ;
+    color: #797979;
+    transition: 300ms;
+   
+  }
+  .btns_mac button:hover{
+    border: 1px solid #0071E3;
+  }
+  .prices{
+    cursor: pointer;
+  }
+  .btn-white {
+    background-color: #0071E3 !important;
+    color: white !important;
+  }
+  .btns_btn{
+    background-color: #0071E3 !important;
+    color: white !important;
+  }
+
+
+
+  .big-btns {
+    width: 322px;
+    margin: 0 auto;
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 100px;
+  }
+  
+  .big-btns button {
+    width: 321px;
+    height: 57px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #CFE7FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 300ms;
+  }
+  .big-btns button:hover{
+    border: 2px solid #007FFF;
+  }
+  .actives {
+    border-color: #007fff !important;
+}
+  .btn1 {
+    border-color: #007fff !important
+  }
+  
+  .big-btns button span {
+    font-size: 14px;
+  }
+  .active {
+    display: block;
+  }
+
+   /*  ШРИФТЫ ------------------------------------------------------------------------------------------------ */
+   
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular\ \(1\).ttf ');
+    
+  }
+  
+  
+  /* АДАПТАЦИЯ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+ 
+  
+  @media screen and (max-width: 1920px) {
+    
+  }
+  @media screen and (max-width: 1440px) {
+    
+  }
+  
+  @media screen and (max-width: 1280px) {
+    
+  }
+  
+  @media screen and (max-width: 1152px) {
+    
+  }
+  
+  @media screen and (max-width: 1080px) {
+    
+  }
+
+  @media screen and (max-width: 1024px) {
+    .container {
+      width: 900px;
+    }
+    .txt p {
+      width: 850px;
+      height: 118px;
+    }
+
+  }
+
+  @media screen and (max-width: 900px) {
+    .container {
+      width: 800px;
+    }
+    .txt p {
+      width: 800px;
+      
+    }
+
+  }
+  @media screen and (max-width: 800px) {
+    .container {
+      width: 700px;
+    }
+    .txt p {
+      width: 700px;
+      
+    }
+    .mac_img2 {
+      width:250px ;
+      height: 228px;
+    }
+    .mac_img1 {
+      width:250px ;
+      height: 228px;
+    }
+    .price-name h3 {
+      font-size: 38px;
+
+    }
+    .price-name p {
+      font-size: 20px;
+
+    }
+    h1 {
+      font-size: 40px;
+    }
+    .price-sum p {
+      font-size: 38px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .container {
+      width: 550px;
+    }
+    .txt p {
+      width: 550px;
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+    .mac_img2 {
+      width:220px;
+      height: 198px;
+    }
+    .mac_img1 {
+      width:220px ;
+      height: 198px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .container {
+      width: 450px;
+    }
+    .txt p {
+      width: 450px;
+      
+    }
+    .mac {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .mac_img2 {
+      width:320px;
+      height: 288px;
+    }
+    .mac_img1 {
+      width:320px;
+      height: 288px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .container {
+      width: 350px;
+    }
+    .txt p {
+      width: 350px;
+      margin-bottom: 60px;
+      height: 169px;
+    }
+    .mac_img2 {
+      width:250px ;
+      height: 228px;
+    }
+    .mac_img1 {
+      width:250px ;
+      height: 228px;
+    }
+    h1 {
+      font-size: 34px;
+    }
+    .price-sum p {
+      font-size: 32px;
+    }
+    .price-name h3 {
+      font-size: 32px;
+    }
+    .price-name p {
+      font-size: 18px;
+    }
+    .big-btns button {
+      font-size: 16px;
+    }
+    .big-btns button span {
+      font-size: 12px;
+    }
+  } 
+  @media screen and (max-width: 350px) {
+    .container {
+      width: 80%;
+    }
+    h1 {
+      font-size: 26px;
+    }
+    .txt p {
+      width: 244px;
+      height: 250px;
+    }
+    .mac_img1 {
+      width:220px;
+      height: 198px;
+    }
+    .mac_img2 {
+      width:220px;
+      height: 198px;
+    }
+    .btns_mac {
+      width: 244px;
+    }
+    .btns_mac button {
+      width: 122px;
+      font-size: 16px;
+    }
+    .big-btns {
+      width: 244px;
+      margin: 29px 0px 50px 0px ;
+    }
+    .big-btns button {
+      width: 244px;
+    }
+    
+  }
+  @media screen and (max-width: 280px) {
+    .txt p {
+      width: 224px;
+      height: 270px;
+    }
+    .btns_mac {
+      width: 224px;
+    }
+    .btns_mac button {
+      width: 112px;
+    }
+    .big-btns {
+      width: 224px;
+    }
+    .big-btns button {
+      width: 224px;
+      padding: 0px 15px;
+    }
+  }
